@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shelter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="logo">
+			<h1 class="logo-title">
+				Cozy House
+			</h1>
+			<div class="logo-subtitle">
+				Shelter for pets in Boston
+			</div>
+		</div>
+		<nav class="nav-menu">
+			<a class="nav-menu-item" href="../../pages/main/index.html">About the shelter</a>
+			<a class="nav-menu-item-active" href="#">Our pets</a>
+			<a class="nav-menu-item" href="#">Help the shelter</a>
+			<a class="nav-menu-item" href="#">Contacts</a>
+		</nav>
+	</header>
+	<section class="our-pets">
+		<div class="title">
+			Our friends who <br> are looking for a house
+		</div><br>
+		<div class="pets-cards">
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-katrine.png">
+				<p class="pets-cards-item-name">Katrine</p>
+				<button id="Katrine" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-jennifer.png">
+				<p class="pets-cards-item-name" >Jennifer</p>
+				<button id="Jennifer" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-woody.png">
+				<p class="pets-cards-item-name">Woody</p>
+				<button id="Woody" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-sophia.png">
+				<p class="pets-cards-item-name">Sophia</p>
+				<button id="Sophia" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-timmy.png">
+				<p class="pets-cards-item-name">Timmy</p>
+				<button id="Timmy" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-charly.png">
+				<p class="pets-cards-item-name">Charly</p>
+				<button id="Charly" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-scarlett.png">
+				<p class="pets-cards-item-name">Scarlett</p>
+				<button id="Scarlett" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+			<div class="pets-cards-item">
+				<img class="pets-cards-item-img" src="../../assets/pets-freddie.png">
+				<p class="pets-cards-item-name">Freddie</p>
+				<button id="Freddie" class="pets-cards-item-btn" onClick = "getdetails(this)">Learn more</button>
+			</div>
+		</div><br>
+		<div class="our-pets-btns">
+			<button class="pets-cards-btn"><<
+			</button>
+			<button class="pets-cards-btn"><
+			</button>
+			<button class="pets-cards-btn">1
+			</button>
+			<button class="pets-cards-btn">>
+			</button>
+			<button class="pets-cards-btn">>>
+			</button>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-content-1">
+			<div class="footer-title">
+				For questions<br> and suggestions
+			</div><br>
+			<span class="footer-info"><a class="footer-a" href="mailto:email@shelter.com"><img src="../../assets/icon-email.svg"> email@shelter.com</a></span><br>
+			<span class="footer-info"><a  class="footer-a"href="tel:+13 674 567 75 54"><img src="../../assets/icon-phone.svg"> +13 674 567 75 54</a></span>
+		</div>
+		<div class="footer-content-1">
+			<div class="footer-title">
+				We are waiting<br> for your visit
+			</div><br>
+			<span class="footer-info">
+				<a  class="footer-a" href="https://goo.gl/maps/2nGVcScCjAihf2bU9"><img src="../../assets/icon-marker.png"> 1 Central Street, Boston<br> (entrance from the store)</a>
+			</span><br>
+			<span class="footer-info">
+				<a  class="footer-a" href="https://goo.gl/maps/8pQBsufnJkNc8F6U9"><img src="../../assets/icon-marker.png"> 18 South Park, London </a>
+			</span>
+		</div>
+		<img src="../../assets/footer-puppy.png">
+	</footer>
+	<div id="popup" class="popup">
+		<div class="popup-body">
+		<img class="popup-img">
+		<div class="popup-content">
+			<div class="popup-name">
+			</div>
+			<div class="popup-subtitle">
+			</div>
+			<div class="popup-description">
+			</div>
+			<ul class="popup-list">
+				<li class="list-age"></li>
+				<li class="list-inoculations"></li>
+				<li class="list-diseases"></li>
+				<li class="list-parasites"></li>
+			</ul>
+		</div>
+		<button class="popup-close">х</button>
+	</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
